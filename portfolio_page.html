@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ol1001</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="portfolio_page.css">
+   <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">ol1001's Page</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#section1">About</a></li>
+            <li><a href="#section2">Portfolio</a></li>
+            <li><a href="#section3">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="section1" class="container-fluid ">
+    <div class="container">
+        <h2>About me</h2>
+        <p>
+            I'm Olga - IT Engineer with huge experience of multitasking in bitty tasks, field of my
+            interests is rather wide and contains system administration (prefer linux), networking, databases,
+            development & UI/UX lately. Also I'm passionately involved in volunteering activities related with
+            road
+            safety and post crash support.
+
+        </p>
+    </div>
+</div>
+<div id="section2" class="container-fluid">
+    <div class="container">
+        <h2>My portfolio</h2>
+        <div class="photo">
+            <ul id="photo-items">
+                <li class="photo-item blur" id="photo-item1"></li>
+                <li class="photo-item" id="photo-item2"></li>
+                <li class="photo-item" id="photo-item3"></li>
+                <li class="photo-item blur" id="photo-item4"></li>
+                <li class="photo-item" id="photo-item5"></li>
+            </ul>
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close">×</span>
+            <img class="modal-content" id="img01">
+        </div>
+    </div>
+</div>
+<div id="section3" class="container-fluid">
+    <div class="container">
+        <h2>Contact me</h2>
+        <p>You may send me a message by using this form. I'll answer as soon as possible. Don't hesitate to be in touch ;)</p>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Your name:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" placeholder="John Doe">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="message">Your message:</label>
+                <div class="col-sm-10">
+                <textarea class="form-control" rows="5" id="message"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Submit <span class="glyphicon glyphicon-envelope"></span></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<footer>
+    <a href="mailto:carmin.work@gmail.com" target="_top">carmin</a>&nbsp;&#169;&nbsp;2016
+</footer>
+</body>
+</html>
